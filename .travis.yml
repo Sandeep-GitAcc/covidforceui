@@ -1,0 +1,17 @@
+language: node_js
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+before_deploy:
+  - "npm run build"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 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
+  local_dir: dist
+  on:
+    branch: main
