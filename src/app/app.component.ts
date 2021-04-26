@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'covidforceui';
-  opened: boolean = true;
+  opened: boolean = false;
 }

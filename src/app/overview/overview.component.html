@@ -1,4 +1,4 @@
-<mat-grid-list cols="3" rowHeight="2:1">
+<mat-grid-list [cols]="column" rowHeight="2:1" (window:resize)="onResize($event)">
     <mat-grid-tile 
         *ngFor="let tile of featureList.sections" 
         class="tile">

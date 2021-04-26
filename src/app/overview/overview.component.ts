@@ -9,9 +9,15 @@ import { SidebarInfoModel } from '../sidebar/sidebarinfo';
 })
 export class OverviewComponent implements OnInit {
 
+  public column: number;
+  public imgwidth: string;
+  public imgheight: string;
   public featureList : SidebarInfoModel;
   constructor(private httpClient : HttpClient) { 
     this.featureList = new SidebarInfoModel("","",[]);
+    this.column = 3;
+    this.imgheight = "30vw";
+    this.imgwidth = "20vw";
   }
 
   ngOnInit(): void {
@@ -19,6 +25,11 @@ export class OverviewComponent implements OnInit {
       console.log(data);
       this.featureList = (data as SidebarInfoModel);
     });
+    this.column =  (window.innerWidth <= 800) ? 1 : (window.innerWidth < 1100) ? 2 : 3;
+  }
+
+  onResize(event: any) {
+    this.column = (event.target.innerWidth <= 800) ? 1 : (event.target.innerWidth <= 1100) ? 2 : 3;
   }
 
 }
