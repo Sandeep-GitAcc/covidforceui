@@ -1,0 +1,56 @@
+{
+    "profileName": "Covid Info Portal",
+    "profileImageURL": "assets/images/covidforce.jpg",
+    "sections": [
+        {
+            "name": "Medical Services",
+            "route": "/medical",
+            "img": "assets/images/medicalservice.jpg",
+            "column":1,
+            "row":1
+        },
+        {
+            "name": "Plasma Bank",
+            "route": "/plasma",
+            "img": "assets/images/plasma.jpg",
+            "column":2,
+            "row":1
+        },
+        {
+            "name": "Mental Health",
+            "route": "/mentalhealth",
+            "img": "assets/images/mental.png",
+            "column":1,
+            "row":2
+        },
+        {
+            "name": "Hospital Beds",
+            "route": "/hospitalbeds",
+            "img": "assets/images/beds.jpg",
+            "column":2,
+            "row":2
+        },
+        {
+            "name": "Oxygen Supply",
+            "route": "/oxygensupply",
+            "img": "assets/images/oxygen.png",
+            "column":1,
+            "row":3
+        },
+        {
+            "name": "Food Service",
+            "route": "/foodservice",
+            "img": "assets/images/food.jpg",
+            "column":2,
+            "row":3
+        },
+        {
+            "name": "Guidelines",
+            "route": "/guidelines",
+            "img": "assets/images/guidelines.jpg",
+            "column":1,
+            "row":4
+        }
+    ]
+
+}

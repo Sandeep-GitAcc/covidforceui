@@ -1,0 +1,105 @@
+.top-bar {
+    display: hide;
+}
+
+mat-button {
+    hidden: true
+}
+/* 
+.global-mainpanel {
+    display: inline;
+    width: 20%;
+    background-color: rgb(71, 71, 71);
+} */
+
+.mat-sidenav-container {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+}
+
+.sidebar {
+    justify-content: center;
+    border: none;
+    box-shadow: lightblue;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.mat-sidenav {
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    width: 20%;
+    visibility: visible;
+    align-items: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.profile-card {
+    background: none;
+    box-shadow: none;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.profile-image {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.mat-card-title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'signature', 'arial', sans-serif;
+}
+
+.mat-sidenav-content {
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+
+.global-infopanel {
+    height: 100%;
+    width: 80%;
+}
+
+.menu-div {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.mat-list-item-content {
+    text-align: center;
+}
+
+.mat-list-item {
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .top-bar {
+        display: flex;
+        width: 100%;
+        height: 5%;
+    }
+}

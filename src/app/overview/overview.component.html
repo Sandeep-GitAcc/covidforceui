@@ -1,0 +1,10 @@
+<mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile 
+        *ngFor="let tile of featureList.sections" 
+        class="tile">
+        <a href={{tile.route}}>
+            <img src={{tile.img}} class="featureimg" />
+        </a>
+        <mat-grid-tile-header>{{tile.name}}</mat-grid-tile-header>
+    </mat-grid-tile>
+  </mat-grid-list>

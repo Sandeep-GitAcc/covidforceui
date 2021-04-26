@@ -1,0 +1,9 @@
+<mat-card class="profile-card">
+    <img src={{sidebarInfo.profileImageURL}} class="profile-image" alt="Avatar" />
+    <mat-card-title>{{sidebarInfo.profileName}}</mat-card-title>
+</mat-card>
+<mat-nav-list class="menu-div" *ngFor="let section of sidebarInfo.sections">
+    <div class="menu-text">
+        <a routerLink={{section.route}} routerLinkActive="active">{{section.name}}</a>
+    </div>
+</mat-nav-list>

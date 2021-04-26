@@ -1,0 +1,47 @@
+/* @font-face {
+    font-family: signature;
+    src: url(../../assets/fonts/a_applicant_signature/aApplicantSignature.otf) format("opentype");
+} */
+
+.profile-card {
+    background: none;
+    box-shadow: none;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.profile-image {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.mat-card-title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: xxx-large;
+    /* font-family: 'signature', 'arial', sans-serif; */
+}
+
+.menu-div {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.mat-list-item-content {
+    text-align: center;
+}
+
+.mat-list-item {
+    text-align: center;
+}
